@@ -1,0 +1,18 @@
+{
+  "name": "gtech-agri-advisor",
+  "version": "0.1.0",
+  "description": "Bot WhatsApp de conseil agricole pour petits exploitants en Guinée",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "dotenv": "^16.4.5",
+    "express": "^5.0.1",
+    "mongoose": "^8.9.0",
+    "node-cron": "^3.0.3"
+  }
+}
